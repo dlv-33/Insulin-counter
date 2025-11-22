@@ -11,11 +11,23 @@
 }
 
 header{
-    font-size: 40px;
+    font-size: 34px;
     background-color: cornflowerblue;
     padding-inline: 40px;
     
     border-radius: 20px;
+}
+
+input[type='number']{
+    max-width: 130px;
+}
+
+select{
+    width: 150px;
+}
+
+.cell{
+    width: 310px;
 }
 
 header span{
