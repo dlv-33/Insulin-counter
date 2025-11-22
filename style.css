@@ -13,8 +13,9 @@
 header{
     font-size: 40px;
     background-color: cornflowerblue;
+    padding-inline: 40px;
     
-    border-radius: 3%;
+    border-radius: 20px;
 }
 
 header span{
