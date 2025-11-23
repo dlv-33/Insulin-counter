@@ -1,18 +1,25 @@
-
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://github.com/dlv-33/image7/raw/main/image7.jpg");
+    min-height: 100vh;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    
+}
 .wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
+    margin-top: 50px;
     
-
-    width: fit-content;
     margin-inline: auto;
 }
 
 header{
     font-size: 34px;
     background-color: cornflowerblue;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.5);
     padding-inline: 40px;
     
     border-radius: 20px;
@@ -33,12 +40,33 @@ select{
 header span{
     color: red;
 }
-
-
+#uglK{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+button, #uglK{
+    display:block;
+    
+}
 
 .products{
     display: flex;
     flex-direction: column;
     row-gap: 3px;
+
+}
+.reference{
+    margin-bottom: 50px;
+    margin-top: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-inline: 20px;
+    width: fit-content;
+
+    
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.5);
+    background-color: cornflowerblue;
+    border-radius: 10px;
 
 }
